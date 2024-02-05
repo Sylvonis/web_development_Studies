@@ -6,7 +6,7 @@
     <link rel="icon" type="image/GIF" href="images/sapari_gs.gif">
     <title>Sapari Cat GIF</title>
 </head>
-<body>
+<body title="body_text">
     <img src="images/sapari_gs.gif" type="GIF">
     <p>Sapari cat of the Silva</p>
     <p>Sapari <b>bold cat of the</b> Silva</p>
@@ -19,5 +19,19 @@
     <p>Sapari <sup>superscript cat of the</sup> Silva</p>
     <p>Sapari <tt>monospaced cat of the</tt> Silva</p>
     <p>Sapari <mark style="background-color: lightgreen;">green marked cat of the</marK> Silva</p>
+
+    <p id="hello_text">Hello</p>
+    <button id="button_ds" onclick="doSomething()">Click me</button>
+
+    <script>
+        function doSomething(){
+            var greetings = document.getElementById("hello_text").innerHTML;
+            if (greetings == "Hello"){
+                document.getElementById("hello_text").innerHTML = "Goodbye"
+            } else {
+                document.getElementById("hello_text").innerHTML = "Hello"
+            }
+        }
+    </script>
 </body>
 </html>
