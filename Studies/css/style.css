@@ -1,0 +1,44 @@
+@font-face{
+    src: url(fonts/OpenSans.ttf);
+    font-family: openSans;
+}
+@font-face{
+    src: url(fonts/ProtestRevolution.ttf);
+    font-family: protestRevolution;
+}
+font-face{
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: roboto;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid rgb(119, 40, 0);
+    border-radius: 15px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+    font-style: italic;
+    border-bottom: 3px solid rgb(127, 85, 0);
+    border-top: 3px solid rgb(7, 47, 72);
+    border-left: 5px dotted rgb(108, 170, 186);
+    border-right: 5px dotted rgb(15, 28, 15);
+
+    border-radius: 10px;
+}
+#p1{
+    color: tomato;
+}
+#p2{
+    color: rgb(132, 171, 255);
+}
+#p3{
+    color: #39ab89;
+}
+#p4{
+    color: hsl(265, 100%, 69%);
+}
